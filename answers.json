@@ -1,0 +1,53 @@
+{
+  "task_1": {
+    "same_hists": {
+      "image_name": "images\\image01_1.jpg",
+      "object_loc": {
+        "x_min": 50,
+        "x_max": 470,
+        "y_min": 370,
+        "y_max": 690
+      },
+      "background_loc": {
+        "x_min": 50,
+        "x_max": 480,
+        "y_min": 18,
+        "y_max": 398
+      },
+      "image_result": "images\\hist_same_comparison.png"
+    },
+    "diff_hists": {
+      "image_name": "images\\image02.jpg",
+      "object_loc": {
+        "x_min": 35,
+        "x_max": 360,
+        "y_min": 135,
+        "y_max": 570
+      },
+      "background_loc": {
+        "x_min": 0,
+        "x_max": 400,
+        "y_min": 0,
+        "y_max": 150
+      },
+      "image_result": "images\\hist_different_comparison.png"
+    }
+  },
+  "task_2": {
+    "image_result": "images\\lena_edges.png",
+    "params": {
+      "gaussian": {
+        "sigma": 3
+      },
+      "canny": {
+        "sigma": 2,
+        "low_threshold": 0.05,
+        "high_threshold": 0.2
+      }
+    }
+  },
+  "task_3": {
+    "query": "SibSp > 0",
+    "image_result": "images\\titanic_survival.png"
+  }
+}
