@@ -1,5 +1,21 @@
 {
   "task_1": {
+    "same_hists": {
+      "image_name": "images\\image01.jpg",
+      "object_loc": {
+        "x_min": 50,
+        "x_max": 470,
+        "y_min": 370,
+        "y_max": 690
+      },
+      "background_loc": {
+        "x_min": 15,
+        "x_max": 450,
+        "y_min": 0,
+        "y_max": 400
+      },
+      "image_result": "images\\hist_same_comparison.png"
+    },
     "diff_hists": {
       "image_name": "images\\image02.jpg",
       "object_loc": {
