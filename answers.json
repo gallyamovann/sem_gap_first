@@ -1,21 +1,5 @@
 {
   "task_1": {
-    "same_hists": {
-      "image_name": "images\\image01_1.jpg",
-      "object_loc": {
-        "x_min": 50,
-        "x_max": 470,
-        "y_min": 370,
-        "y_max": 690
-      },
-      "background_loc": {
-        "x_min": 50,
-        "x_max": 480,
-        "y_min": 18,
-        "y_max": 398
-      },
-      "image_result": "images\\hist_same_comparison.png"
-    },
     "diff_hists": {
       "image_name": "images\\image02.jpg",
       "object_loc": {
@@ -57,6 +41,6 @@
   "task_5": {
     "result_image": "images\\local_binarization_result.png",
     "source_image": "images\\image04.jpg",
-    "block_size": 31
+    "block_size": 27
   }
 }
