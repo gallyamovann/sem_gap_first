@@ -47,7 +47,16 @@
     }
   },
   "task_3": {
-    "query": "SibSp > 0",
+    "query": "SibSp > 1 or Age > 47 or (Age > 35 and Age < 40)",
     "image_result": "images\\titanic_survival.png"
+  },
+  "task_4": {
+    "result_image": "images\\binarization_result.png",
+    "source_image": "images\\image03.jpg"
+  },
+  "task_5": {
+    "result_image": "images\\local_binarization_result.png",
+    "source_image": "images\\image04.jpg",
+    "block_size": 31
   }
 }
